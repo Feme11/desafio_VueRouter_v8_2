@@ -66,14 +66,13 @@ export default {
 }
 
 .mi-transicion-enter-active, .mi-transicion-leave-active {
-  transition: opacity 1s, padding 1s;
+  transition: opacity 100ms 
 }
 .mi-transicion-enter, .mi-transicion-leave-to {
   opacity: 0;
-  padding: 10px;
+  padding: 30px;
 }
 .mi-transicion-enter-to, .mi-transicion-leave {
-  opacity: 100%;
-  padding: 0px;
+  opacity: 1;
 }
 </style>
